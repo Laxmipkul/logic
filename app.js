@@ -1,3 +1,4 @@
+
 // let btns = document.querySelectorAll('.btns');
 
 // btns.forEach(function(btn) {
@@ -19,4 +20,22 @@
 // num1.addEventListener('input', function() {
 //   h1.textContent = `Result: ${num1.value}`;
 // });
+
+function cal(inpu){
+  if( inpu < 1){
+    throw new Error( "Input must be greater than or equal to 1");
+  }
+  const str = inpu.toString();
+  const arr = str.split('');
+
+  arr.forEach(function(num) {
+    console.log
+   
+  } )
+
+}
+
+cal(1234); // This will log each digit of the number 1234
+
+
 
